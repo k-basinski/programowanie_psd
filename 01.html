@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Krzysztof Basiński">
+  <title>Programowanie w pracy naukowca</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reset.css">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/white.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Programowanie w pracy naukowca</h1>
+  <p class="subtitle">Kurs podstawowy</p>
+  <p class="author">Krzysztof Basiński</p>
+</section>
+
+<section id="o-mnie" class="slide level3">
+<h3>O mnie</h3>
+<ul>
+<li class="fragment">k.basinski@gumed.edu.pl</li>
+<li class="fragment">Krzysztof Basiński</li>
+<li class="fragment">Zakład Badań nad Jakością Życia</li>
+<li class="fragment">Tuwima 15, pok. 312</li>
+</ul>
+</section>
+<section id="o-tym-przedmiocie" class="slide level3">
+<h3>O tym przedmiocie</h3>
+<ul>
+<li class="fragment">Dwie części - kurs podstawowy i zaawansowany</li>
+<li class="fragment">Fakultet do wyboru</li>
+<li class="fragment">15h, 5 spotkań</li>
+</ul>
+</section>
+<section id="kurs-podstawowy" class="slide level3">
+<h3>Kurs podstawowy</h3>
+<ul>
+<li class="fragment">“Od zera do bohatera”</li>
+<li class="fragment">Nie musisz znać się na programowaniu</li>
+<li class="fragment">Musisz znać <strong>absolutne podstawy</strong> informatyki: co to jest plik, co to jest folder, jak się kopiuje pliki, zmienia im nazwy itd.</li>
+</ul>
+</section>
+<section id="kurs-zaawansowany" class="slide level3">
+<h3>Kurs zaawansowany</h3>
+<ul>
+<li class="fragment">Dla tych, którzy zrobili kurs podstawowy albo mają background programistyczny</li>
+<li class="fragment">Skupimy się na <strong>zastosowaniach</strong> programowania w pracy naukowej:
+<ul>
+<li class="fragment">Analiza danych i statystyka</li>
+<li class="fragment">Wizualizacje</li>
+<li class="fragment">Tworzenie reprodukowalnych analiz</li>
+</ul></li>
+</ul>
+</section>
+<section id="jak-działają-komputery" class="slide level3">
+<h3>Jak działają komputery?</h3>
+</section>
+<section id="komputer-kalkulator" class="slide level3">
+<h3>Komputer == kalkulator</h3>
+</section>
+<section id="wejście-i-wyjście" class="slide level3">
+<h3>Wejście i wyjście</h3>
+<figure>
+<img data-src="img/computer_diagram.png" alt="" /><figcaption>Wejście i wyjście</figcaption>
+</figure>
+</section>
+<section id="dane-wejściowe" class="slide level3">
+<h3>Dane wejściowe</h3>
+<ul>
+<li class="fragment">Klawiatura</li>
+<li class="fragment">Myszka</li>
+<li class="fragment">Touchpad?</li>
+<li class="fragment">Plik na dysku</li>
+<li class="fragment">Dane zdalne, uzyskane przez sieć</li>
+<li class="fragment">etc.</li>
+</ul>
+</section>
+<section id="pamięć" class="slide level3">
+<h3>Pamięć</h3>
+<ul>
+<li class="fragment">RAM - Random Access Memory</li>
+<li class="fragment">Pamięć “chwilowa” - informacje zapisywane na moment, po to by CPU wykonał operacje</li>
+</ul>
+</section>
+<section id="procesor-cpu" class="slide level3">
+<h3>Procesor (CPU)</h3>
+<ul>
+<li class="fragment">Bardzo szybki kalkulator</li>
+<li class="fragment">Jak szybki?</li>
+<li class="fragment">Ok. 50 miliardów operacji na sekundę w nowoczesnym laptopie</li>
+</ul>
+</section>
+<section id="dane-wyjściowe" class="slide level3">
+<h3>Dane wyjściowe</h3>
+<ul>
+<li class="fragment">Ekran</li>
+<li class="fragment">Plik</li>
+<li class="fragment">Słuchawki bluetooth</li>
+<li class="fragment">Adresat e-maila</li>
+<li class="fragment">etc.</li>
+</ul>
+</section>
+<section id="bit" class="slide level3">
+<h3>Bit</h3>
+<ul>
+<li class="fragment">Podstawowa jednostka informacji</li>
+<li class="fragment">Przyjmuje wartości <strong>0 lub 1</strong></li>
+<li class="fragment">Ciąg ośmiu bitów daje jeden <strong>bajt</strong> - najprostszy sposób zapisania np. pojedynczego znaku</li>
+</ul>
+</section>
+<section id="ascii" class="slide level3">
+<h3>ASCII</h3>
+<ul>
+<li class="fragment">Siedem bitów</li>
+<li class="fragment">Np. <code>011 1001</code> - cyfra <em>9</em></li>
+<li class="fragment">Np. <code>100 0001</code> - litera <em>A</em></li>
+<li class="fragment">Np. <code>010 0000</code> - spacja</li>
+<li class="fragment">Jeden z możliwych standardów kodowania znaków</li>
+</ul>
+</section>
+<section id="utf-8" class="slide level3">
+<h3>UTF-8</h3>
+<ul>
+<li class="fragment">Złoty standard kodowania znaków</li>
+<li class="fragment">1,112,064 możliwych znaków</li>
+<li class="fragment">od 8 do 32 bitów</li>
+<li class="fragment">Dobra rada - jeśli możesz, <strong>zawsze używaj kodowania UTF-8</strong></li>
+<li class="fragment">Programy firmy Microsoft uporczywie <em>nie używają</em> kodowania UTF-8</li>
+</ul>
+</section>
+<section id="bajty" class="slide level3">
+<h3>Bajty</h3>
+<ul>
+<li class="fragment">Osiem bitów daje jeden bajt</li>
+<li class="fragment">Dokładając przedrostek (z układu SI), dostajemy znane jednostki
+<ul>
+<li class="fragment"><strong>KILO</strong>bajty (1,000 bajtów)</li>
+<li class="fragment"><strong>MEGA</strong>bajty (1,000,000 bajtów)</li>
+<li class="fragment"><strong>GIGA</strong>bajty (1,000,000,000 bajtów)</li>
+<li class="fragment"><strong>TERA</strong>bajty (1,000,000,000,000 bajtów)</li>
+</ul></li>
+</ul>
+</section>
+<section id="programy" class="slide level3">
+<h3>Programy</h3>
+<ul>
+<li class="fragment">Skąd procesor wie, jakiego rodzaju operacje ma wykonać na danych?</li>
+<li class="fragment">Mówi mu to ciąg instrukcji zwany <strong>programem</strong></li>
+<li class="fragment">Program komputerowy działa tak samo jak programator w pralce</li>
+<li class="fragment">Aby CPU zrozumiał program, musi on być napisany w <strong>kodzie maszynowym</strong></li>
+</ul>
+</section>
+<section id="kod-maszynowy" class="slide level3">
+<h3>Kod maszynowy</h3>
+<pre><code>8B542408 83FA0077 06B80000 0000C383
+FA027706 B8010000 00C353BB 01000000
+B9010000 008D0419 83FA0376 078BD989
+C14AEBF1 5BC3</code></pre>
+</section>
+<section id="assembler" class="slide level3">
+<h3>Assembler</h3>
+<pre><code>fib:
+mov edx, [esp+8]
+cmp edx, 0
+ja @f
+mov eax, 0
+ret
+
+@@:
+cmp edx, 2
+ja @f
+mov eax, 1
+ret
+
+@@:
+push ebx
+mov ebx, 1
+mov ecx, 1
+
+@@:
+    lea eax, [ebx+ecx]
+    cmp edx, 3
+    jbe @f
+    mov ebx, ecx
+    mov ecx, eax
+    dec edx
+jmp @b
+
+@@:
+pop ebx
+ret</code></pre>
+</section>
+<section id="c" class="slide level3">
+<h3>C</h3>
+<pre><code>unsigned int fib(unsigned int n) {
+if (n &lt;= 0)
+    return 0;
+else if (n &lt;= 2)
+    return 1;
+else {
+    unsigned int a,b,c;
+    a = 1;
+    b = 1;
+    while (1) {
+        c = a + b;
+        if (n &lt;= 3) return c;
+        a = b;
+        b = c;
+        n--;
+    }
+  }
+}</code></pre>
+</section>
+<section id="języki-programowania-wysokiegowyższego-poziomu" class="slide level3">
+<h3>Języki programowania wysokiego/wyższego poziomu</h3>
+<ul>
+<li class="fragment"><strong>Python</strong></li>
+<li class="fragment">Java</li>
+<li class="fragment">Ruby</li>
+<li class="fragment">Pearl</li>
+<li class="fragment">R</li>
+</ul>
+</section>
+<section id="system-operacyjny-os" class="slide level3">
+<h3>System operacyjny (OS)</h3>
+<ul>
+<li class="fragment"><em>Program do uruchamiania programów</em></li>
+<li class="fragment">Komunikuje się z <em>hardwarem</em></li>
+<li class="fragment">Zapewnia podstawowe funkcjonalności:
+<ul>
+<li class="fragment">I/O</li>
+<li class="fragment">Sieć</li>
+<li class="fragment">Dostęp do danych na dysku</li>
+</ul></li>
+<li class="fragment">Programy piszę się pod konkretny OS</li>
+</ul>
+</section>
+<section id="systemy-operacyjne" class="slide level3">
+<h3>Systemy operacyjne</h3>
+<p><img src="img/os.png" width="40%"></p>
+</section>
+<section id="systemy-operacyjne---windows" class="slide level3">
+<h3>Systemy operacyjne - Windows</h3>
+<figure>
+<img data-src="img/winda.png" alt="" /><figcaption>Windows</figcaption>
+</figure>
+</section>
+<section id="systemy-operacyjne---macos" class="slide level3">
+<h3>Systemy operacyjne - MacOS</h3>
+<figure>
+<img data-src="img/apple.png" alt="" /><figcaption>macOS</figcaption>
+</figure>
+</section>
+<section id="systemy-operacyjne---linux" class="slide level3">
+<h3>Systemy operacyjne - Linux</h3>
+<figure>
+<img data-src="img/linux.png" alt="" /><figcaption>Linux</figcaption>
+</figure>
+</section>
+<section id="python" class="slide level3">
+<h3>Python</h3>
+</section>
+<section id="python---co-to-takiego" class="slide level3">
+<h3>Python - co to takiego?</h3>
+<ul>
+<li class="fragment">interpretowany język programowania wysokiego poziomu</li>
+<li class="fragment">że co?</li>
+</ul>
+</section>
+<section id="python---co-to-takiego-1" class="slide level3">
+<h3>Python - co to takiego?</h3>
+<ul>
+<li class="fragment">interpretowany: nie potrzebujemy kompilować programów</li>
+<li class="fragment">interpretowany: potrzebujemy mieć interpreter Pythona zainstalowany na komputerze</li>
+<li class="fragment">wysokiego poziomu: nie trzeba przejmować się alokacją pamięci, deklarowaniem zmiennych, itd.</li>
+<li class="fragment">jeśli masz znać jeden język programowania, naucz się Pythona</li>
+</ul>
+</section>
+<section id="python---do-czego-służy" class="slide level3">
+<h3>Python - do czego służy?</h3>
+<ul>
+<li class="fragment">Do wszystkiego</li>
+<li class="fragment">Głównie zastosowania:
+<ul>
+<li class="fragment">aplikacje webowe</li>
+<li class="fragment">data science</li>
+<li class="fragment">uczenie maszynowe</li>
+<li class="fragment">skryptowanie</li>
+</ul></li>
+</ul>
+</section>
+<section id="guido-van-rossum-1991" class="slide level3">
+<h3>Guido van Rossum (1991)</h3>
+<figure>
+<img data-src="img/guido.png" alt="" /><figcaption>Guido</figcaption>
+</figure>
+</section>
+<section id="wersje-pythona" class="slide level3">
+<h3>Wersje Pythona</h3>
+<ul>
+<li class="fragment">Python 2 ma skończyć swój żywot w 2020r., dalej możecie się natknąć na przykłady i tutoriale</li>
+<li class="fragment">My uczymy się tylko Pythona 3 (3.7)</li>
+</ul>
+</section>
+<section id="skrypty-a-programowanie-interaktywne" class="slide level3">
+<h3>Skrypty a programowanie interaktywne</h3>
+<ul>
+<li class="fragment">Klasyczne programowanie polega na pisaniu skryptów/programów - plików tekstowych, na których pracuje interpreter/kompilator</li>
+<li class="fragment">Taki też jest klasyczny sposób pracy z Pythonem</li>
+<li class="fragment">My będziemy uczyć się <strong>programowania interaktywnego</strong> - piszesz kod i od razu widzisz jego rezultat</li>
+</ul>
+</section>
+<section id="jupyter-notebook" class="slide level3">
+<h3>Jupyter Notebook</h3>
+<ul>
+<li class="fragment"><em>Notes</em>, służący do programowania interaktywnego</li>
+<li class="fragment">Składa się z komórek (<em>cells</em>), zawierających kod programistyczny i tekst w Markdown</li>
+<li class="fragment">Jupyter wspiera wiele języków programowania, ale my będziemy korzystać z Pythona</li>
+</ul>
+</section>
+<section id="jupyter-lab" class="slide level3">
+<h3>Jupyter Lab</h3>
+<ul>
+<li class="fragment">Aplikacja, która w jednym miejscu skupia przeglądarke plików, Notebook, konsolę, terminale i wiele innych fajnych rzeczy</li>
+<li class="fragment">Działa wewnątrz przeglądarki internetowej (zdalnie albo lokalnie)</li>
+<li class="fragment">Obecnie stabilna wersja 1.1</li>
+</ul>
+</section>
+<section id="jupyter-lab-zdalnie" class="slide level3">
+<h3>Jupyter Lab zdalnie</h3>
+<p><a href="https://notebooks.ai/" class="uri">https://notebooks.ai/</a></p>
+</section>
+<section id="jupyter-lab-lokalnie" class="slide level3">
+<h3>Jupyter Lab lokalnie</h3>
+<p><a href="https://www.anaconda.com/distribution/" class="uri">https://www.anaconda.com/distribution/</a></p>
+</section>
+<section id="chcesz-spróbować-potrzebujesz-tylko-przeglądarki" class="slide level3">
+<h3>Chcesz spróbować? Potrzebujesz tylko przeglądarki</h3>
+<p><a href="https://www.pythonanywhere.com" class="uri">https://www.pythonanywhere.com</a></p>
+</section>
+<section id="skąd-wziąć-pomoc" class="slide level3">
+<h3>Skąd wziąć pomoc?</h3>
+<p><a href="https://docs.python.org/3/" class="uri">https://docs.python.org/3/</a> <a href="https://jupyterlab.readthedocs.io/en/stable/" class="uri">https://jupyterlab.readthedocs.io/en/stable/</a> <a href="https://python.swaroopch.com" class="uri">https://python.swaroopch.com</a></p>
+</section>
+<section id="tutoriale" class="slide level3">
+<h3>Tutoriale</h3>
+<p><a href="https://www.codecademy.com/learn/learn-python-3" class="uri">https://www.codecademy.com/learn/learn-python-3</a> <a href="https://www.udemy.com/learn-python-programming-and-cryptocurrency-data-analysis/?src=sac&amp;kw=python" class="uri">https://www.udemy.com/learn-python-programming-and-cryptocurrency-data-analysis/?src=sac&amp;kw=python</a> <a href="https://www.datacamp.com" class="uri">https://www.datacamp.com</a> <a href="https://youtube.com/" class="uri">https://youtube.com/</a></p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
