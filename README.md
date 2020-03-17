@@ -33,6 +33,10 @@ Gdański Uniwersytet Medyczny
 
 - [01](01.html)
 
+## Screencasty
+
+[Wszystkie materiały dydaktyczne w formie screencastów znajdziesz tu](https://www.youtube.com/playlist?list=PLQooX7p8NEM5YI0KZYATdy8rsK2PgAk5B)
+
 ## Syllabus
 
 [Klik](https://esyllabus.gumed.edu.pl/subjects/19173/fetch_document/PL)
