@@ -43,6 +43,9 @@ Gdański Uniwersytet Medyczny
 
 [Klik](https://esyllabus.gumed.edu.pl/subjects/19173/fetch_document/PL)
 
+## Dane
+
+- [titanic.csv](data/titanic.csv)
 ## Literatura podstawowa
 
 - [Mój skrypt](http://kbas.gumed.edu.pl/programowanie/)
