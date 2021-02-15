@@ -1,6 +1,6 @@
 # Programowanie w pracy naukowca
 
-To jest strona kursu **Programowanie w pracy naukowca** dla Pierwszej Szkoły Doktorskiej GUMed
+To jest strona kursu **Programowanie w pracy naukowca** dla Pierwszej Szkoły Doktorskiej GUMed (kurs podstawowy i zaawansowany). Zajęcia odbywają się na Zoomie w poniedziałki w godz. 16.00 - 17.30.
 
 
 
@@ -19,13 +19,14 @@ Gdański Uniwersytet Medyczny
 ## Zadania
 
 - [Zadanie 0](zadania/zad0.md)
+  
 <!-- 
 
 - [Zadanie 1](zadania/zad1.md)
 - [Zadanie 2](zadania/zad2.md)
 - [Zadanie 3](zadania/zad3.md)
 - [Zadanie 4](zadania/zad4.md) 
-- -->
+-->
 
 ## Slajdy
 
