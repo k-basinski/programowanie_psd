@@ -19,14 +19,7 @@ Gdański Uniwersytet Medyczny
 ## Zadania
 
 - [Zadanie 0](zadania/zad0.md)
-  
-<!-- 
 
-- [Zadanie 1](zadania/zad1.md)
-- [Zadanie 2](zadania/zad2.md)
-- [Zadanie 3](zadania/zad3.md)
-- [Zadanie 4](zadania/zad4.md) 
--->
 
 ## Slajdy
 
