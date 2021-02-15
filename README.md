@@ -16,8 +16,10 @@ Ul Tuwima 15, pok. 312
 
 Gdański Uniwersytet Medyczny
 
-<!-- 
 ## Zadania
+
+- [Zadanie 0](zadania/zad0.md)
+<!-- 
 
 - [Zadanie 1](zadania/zad1.md)
 - [Zadanie 2](zadania/zad2.md)
