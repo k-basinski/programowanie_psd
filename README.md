@@ -19,15 +19,22 @@ Gdański Uniwersytet Medyczny
 ## Zadania
 
 - [Zadanie 0](zadania/zad0.md)
+- [Zadanie 1](zadania/zad1.md)
 
 
 ## Slajdy
 
 - [01](01.html)
 
+## Literatura podstawowa
+
+- [Mój skrypt](http://kbas.gumed.edu.pl/programowanie/)
+
+
 ## Screencasty
 
 [Wszystkie materiały dydaktyczne w formie screencastów znajdziesz tu](https://www.youtube.com/playlist?list=PLQooX7p8NEM5YI0KZYATdy8rsK2PgAk5B)
+
 
 ## Syllabus
 
@@ -38,9 +45,6 @@ Gdański Uniwersytet Medyczny
 - [titanic.csv](data/titanic.csv)
 
 
-## Literatura podstawowa
-
-- [Mój skrypt](http://kbas.gumed.edu.pl/programowanie/)
 
 ## Literatura dodatkowa
 
