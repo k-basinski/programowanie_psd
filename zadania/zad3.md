@@ -22,8 +22,8 @@ Wyświetl wszystkie imiona zaczynające się na S w odwrotnej kolejności alfabe
 
 Utwórz dwie zmienne - `imie1` i `imie2`, przechowujące dowolne imiona. Sprawdź (PROGRAMISTYCZNIE!), czy bardziej popularnym imieniem było `imie1`, czy `imie2`. Wyświetl komunikat w postaci:
 
-> Imię "imie1" było bardziej popularne niż imię "imie2"
+> Imię "Stefan" było bardziej popularne niż imię "Zenon"
 
 albo:
 
-> Imię "imie1" było mniej popularne niż imię "imie2"
+> Imię "Stefan" było mniej popularne niż imię "Zenon"
