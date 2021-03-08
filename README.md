@@ -45,7 +45,7 @@ Gdański Uniwersytet Medyczny
 ## Dane
 
 - [titanic.csv](data/titanic.csv)
-
+- [imiona.txt](data/imiona.zip)
 
 
 ## Literatura dodatkowa
