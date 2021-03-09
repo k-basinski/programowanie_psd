@@ -8,15 +8,15 @@ Wyświetl dziesięć najpopularniejszych imion.
 
 ## 3.2
 
-Wyświetl wszystkie imiona składające się z dokładnie 9 liter
+Na którym miejscu według popularności znajduje się imię "Stefan"?
 
 ## 3.3
 
-Wyświetl dwadzieścia najpopularniejszch imion w kolejności alfabetycznej
+Wyświetl dwadzieścia najpopularniejszych imion w kolejności alfabetycznej
 
 ## 3.4
 
-Wyświetl wszystkie imiona zaczynające się na S w odwrotnej kolejności alfabetycznej (tj. od SZ do SA)
+Wyświetl dziesięć najmniej popularnych imion w kolejności od najmniej popularnego. Postaraj się to zrobić jedną linijką, bez sortowania listy.
 
 ## 3.5 *
 
