@@ -1,11 +1,25 @@
 ## Zadanie 4
 
-Napisz program przeprowadzający _"psychotest"_. Wymyśl swoje własne pytania. Niech użytkownik udziela odpowiedzi na skali Likerta, tj. na przykład na skali od 1 do 5 gdzie 1 oznacza _zupełnie się nie zgadzam_ a 5 oznacza _całkowicie się zgadzam_. Po przejściu całego testu niech program zsumuje punkty i w zależności od wyniku wypluje diagnozę. 
+### 4.1 
 
-Uwagi:
+Stwórz nową listę. Umieść w niej 10 000 losowych liczb całkowitych z przedziału 0-100. Użyj do tego konstrukcji:
 
-- Pytań niech będzie co najmniej 5
-- Treść pytań jak i diagnozy dowolna. Może a nawet powinna być twórcza/zabawna/lekko głupawa
-- Niech treść pytań znajdzie się w pliku `pytania.txt` i niech program sczytuje pytania do listy
-- Odpowiedź użytkownika powinna być zbierana za pomocą funkcji `input()`. Sprawdź w dokumentacji/googlu jak działa taka funkcja.
-- Każde pytanie powinno być zadawane poprzez funkcję typu `zadaj_pytanie(treść_pytania)`. Funkcja powinna wyświetlić pytanie, opis skali ("1 oznacza _zupełnie się nie zgadzam_ a 5 oznacza _całkowicie się zgadzam_" lub coś podobnego) oraz funkcję `input()` pobierającą odpowiedź. Funkcja powinna **zwrócić odpowiedź użytkownika jako `int`**. Program powinien korzystać z wartości zwracanej przez funkcję aby sformułować diagnozę
+```{python}
+import random
+
+x = random.randint(0,100) # losowy int
+```
+
+### 4.1
+
+Oblicz średnią liczb na liście.
+
+
+### 4.3
+
+Oblicz odchylenie standardowe liczb na liście. Uwaga! Nie korzystaj z żadnej z wielu dostępnych gotowych funkcji w Pythonie. W zadaniu chodzi o to, żeby obliczyć to na piechotę. Nie wiesz jak liczy się odchylenie standardowe? Sprawdź tu: <https://en.wikipedia.org/wiki/Standard_deviation>.
+
+
+### 4.4
+
+Zmień przedział losowania z punktu 4.1. Zobacz, w jaki sposób zmieniają się średnia i odchylenie w zależności od tego, jak zmienisz przedział.
