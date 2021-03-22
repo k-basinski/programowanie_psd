@@ -23,6 +23,7 @@ Gdański Uniwersytet Medyczny
 - [Zadanie 2](zadania/zad2.md)
 - [Zadanie 3](zadania/zad3.md)
 - [Zadanie 4](zadania/zad4.md)
+- [Zadanie 5](zadania/zad5.md)
  
 
 ## Slajdy
