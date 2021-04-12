@@ -16,7 +16,9 @@ Ul Tuwima 15, pok. 312
 
 Gdański Uniwersytet Medyczny
 
-## Zadania
+## Kurs podstawowy
+
+### Zadania
 
 - [Zadanie 0](zadania/zad0.md)
 - [Zadanie 1](zadania/zad1.md)
@@ -26,9 +28,19 @@ Gdański Uniwersytet Medyczny
 - [Zadanie 5](zadania/zad5.md)
  
 
-## Slajdy
+### Slajdy
 
 - [01](01.html)
+
+
+## Kurs zaawansowany
+
+### Zadania
+
+- [Zadanie 1](zadania/zad_z1.md)
+
+
+
 
 ## Literatura podstawowa
 
