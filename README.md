@@ -40,7 +40,11 @@ Gdański Uniwersytet Medyczny
 - [Zadanie 1](zadania/zad_z1.md)
 
 
+### Notatniki z zajęć
 
+Uwaga! Notatniki mogą nie działać poprawnie po uruchomieniu lokalnie ze względu na zaburzoną kolejność uruchamiania komórek. To normalne i tak ma być.
+
+- [Zajęcia 1](notatki/zajecia_z1.ipynb)
 
 ## Literatura podstawowa
 
