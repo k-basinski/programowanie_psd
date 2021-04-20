@@ -38,6 +38,10 @@ Gdański Uniwersytet Medyczny
 ### Zadania
 
 - [Zadanie 1](zadania/zad_z1.md)
+- [Zadanie 2](zadania/zad_z2.md)
+- [Zadanie 3](zadania/zad_z3.md)
+- [Zadanie 4](zadania/zad_z4.md)
+- [Zadanie 5](zadania/zad_z5.md)
 
 
 ### Notatniki z zajęć
@@ -45,6 +49,7 @@ Gdański Uniwersytet Medyczny
 Uwaga! Notatniki mogą nie działać poprawnie po uruchomieniu lokalnie ze względu na zaburzoną kolejność uruchamiania komórek. To normalne i tak ma być.
 
 - [Zajęcia 1](https://github.com/k-basinski/programowanie_psd/blob/master/notatki/zajecia_z1.ipynb)
+- [Zajęcia 1](https://github.com/k-basinski/programowanie_psd/blob/master/notatki/zajecia_z2.ipynb)
 
 ## Literatura podstawowa
 
@@ -55,6 +60,7 @@ Uwaga! Notatniki mogą nie działać poprawnie po uruchomieniu lokalnie ze wzgl�
 
 [Wszystkie materiały dydaktyczne w formie screencastów znajdziesz tu](https://www.youtube.com/playlist?list=PLQooX7p8NEM5YI0KZYATdy8rsK2PgAk5B)
 
+Nagrania z zajęć dostępne na stronie kursu na Moodle.
 
 ## Syllabus
 
