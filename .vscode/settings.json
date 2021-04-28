@@ -7,5 +7,5 @@
         "plaintext",
         "markdown"
     ],
-    "python.pythonPath": "/opt/homebrew/Caskroom/miniforge/base/bin/python"
+    "python.pythonPath": "/Users/kbas/miniconda3/bin/python"
 }

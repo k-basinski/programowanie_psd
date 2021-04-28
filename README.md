@@ -49,7 +49,8 @@ Gdański Uniwersytet Medyczny
 Uwaga! Notatniki mogą nie działać poprawnie po uruchomieniu lokalnie ze względu na zaburzoną kolejność uruchamiania komórek. To normalne i tak ma być.
 
 - [Zajęcia 1](https://github.com/k-basinski/programowanie_psd/blob/master/notatki/zajecia_z1.ipynb)
-- [Zajęcia 1](https://github.com/k-basinski/programowanie_psd/blob/master/notatki/zajecia_z2.ipynb)
+- [Zajęcia 2](https://github.com/k-basinski/programowanie_psd/blob/master/notatki/zajecia_z2.ipynb)
+- [Zajęcia 3](https://github.com/k-basinski/programowanie_psd/blob/master/notatki/zajecia_z3.ipynb)
 
 ## Literatura podstawowa
 
