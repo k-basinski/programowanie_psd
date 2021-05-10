@@ -71,6 +71,7 @@ Nagrania z zajęć dostępne na stronie kursu na Moodle.
 
 - [titanic.csv](data/titanic.csv)
 - [imiona.txt](data/imiona.zip)
+- [Miliarderzy](data/forbes_billionaires_geo.csv)
 
 
 ## Literatura dodatkowa
