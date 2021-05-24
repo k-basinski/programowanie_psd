@@ -52,6 +52,7 @@ Uwaga! Notatniki mogą nie działać poprawnie po uruchomieniu lokalnie ze wzgl�
 - [Zajęcia 2](https://github.com/k-basinski/programowanie_psd/blob/master/notatki/zajecia_z2.ipynb)
 - [Zajęcia 3](https://github.com/k-basinski/programowanie_psd/blob/master/notatki/zajecia_z3.ipynb)
 - [Zajęcia 4](https://github.com/k-basinski/programowanie_psd/blob/master/notatki/zajecia_z4.ipynb)
+- [Zajęcia 5](https://github.com/k-basinski/programowanie_psd/blob/master/notatki/zajecia_z5.ipynb)
 
 ## Literatura podstawowa
 

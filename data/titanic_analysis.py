@@ -6,6 +6,8 @@ df = pd.read_csv('titanic.csv')
 df.info()
 
 # %%
+df
+# %%
 df.Pclass.value_counts()
 # %%
 df['survived_r'] = df['Survived'].replace({0: 'no', 1: 'yes'})
@@ -25,4 +27,15 @@ print(observed)
 print(stats.round(3))
 # %%
 png.corr(df.Fare, df.Age)
+# %%
+
+
+import seaborn as sns
+sns.relplot(x = 'Age', y='Fare', data=df)
+# %%
+sns.catplot(x='Survived', y='Age', kind='violin', data=df)
+# %%
+
+sns.catplot(x='Pclass', y='Fare', hue='Sex', data=df, kind='box')
+
 # %%
